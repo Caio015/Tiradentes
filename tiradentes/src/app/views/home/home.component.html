@@ -1,0 +1,17 @@
+<mat-toolbar>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Magister</button>
+      <button mat-menu-item>Cursos</button>
+      <button mat-menu-item>Notas</button>
+      <button mat-menu-item>Documentos</button>
+      <button mat-menu-item>Fale com o professor</button>
+    </mat-menu>
+    <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class = "titulo">Atividades Extracurriculares</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button (click)="openDialog()">Novo Certificado</button>
+  </mat-toolbar>
+  <app-certificados></app-certificados>
+ 
