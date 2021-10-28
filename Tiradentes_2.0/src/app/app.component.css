@@ -1,0 +1,10 @@
+.nav-container{
+    height: 100%;
+}
+
+.nav-content{
+
+    padding: 2rem;
+    width: 200px;
+    background-color: lightgray;
+}
